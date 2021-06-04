@@ -29,9 +29,9 @@ if __name__ =='__main__':
 
     block = 10
     transaction = '''
-    Akhilesh->Siddardha->30,
-    Yash->Bhargav->25,
-    Sanvith->Akhil->40
+    ABCD->EFGH->30,
+    IJKL->MNOP->25,
+    QRST->UVWX->40
     '''
     previous_hash = sha256('Akhilesh'.encode('ascii')).hexdigest()
     diff = 6
